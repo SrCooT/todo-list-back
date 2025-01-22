@@ -15,12 +15,14 @@ git clone https://github.com/SrCooT/todo-list-back
 cd todo-list-back
 ```
 
-## Instalando dependências
 
-```bash
-npm install
-# ou
-yarn install
+# Instalando dependências do Django e Django REST framework
+```
+
+pip install django
+pip install djangorestframework
+```
+
 ```
 
 ## Configurando o front-end
@@ -29,10 +31,9 @@ Não se esqueça de integrar a parte do front-end que está no repositório [tod
 
 ## Executando o projeto
 
-```bash
-npm start
-# ou
-yarn start
+```
+python manage.py runserver
+
 ```
 
 
