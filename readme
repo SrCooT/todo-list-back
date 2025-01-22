@@ -1,0 +1,41 @@
+# Todo List Back-end
+
+Este repositório contém o back-end do projeto Todo List. Siga as instruções abaixo para clonar e configurar o projeto.
+
+## Pré-requisitos
+
+- Git
+- Node.js
+- NPM ou Yarn
+
+## Clonando o repositório
+
+```bash
+git clone https://github.com/SrCooT/todo-list-back
+cd todo-list-back
+```
+
+## Instalando dependências
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+## Configurando o front-end
+
+Não se esqueça de integrar a parte do front-end que está no repositório [todo-list](https://github.com/SrCooT/todo-list).
+
+## Executando o projeto
+
+```bash
+npm start
+# ou
+yarn start
+```
+
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
