@@ -6,7 +6,7 @@ Este repositório contém o back-end do projeto Todo List. Siga as instruções 
 
 - Git
 - Node.js
-- NPM ou Yarn
+- Python (versão atualizada)
 
 ## Clonando o repositório
 
@@ -14,7 +14,18 @@ Este repositório contém o back-end do projeto Todo List. Siga as instruções 
 git clone https://github.com/SrCooT/todo-list-back
 cd todo-list-back
 ```
+# Cmonando utilizados nesse projeto
 
+django-admin startproject myproject
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+python manage.py startapp appname
+
+# Acessando o backend
+-- Quando acessar o [admin](http://localhost:8000/admin)
+o login admin
+senha admin123456
 
 # Instalando dependências do Django e Django REST framework
 ```
@@ -35,6 +46,8 @@ Não se esqueça de integrar a parte do front-end que está no repositório [tod
 python manage.py runserver
 
 ```
+
+Qualquer duvida estou a disposição
 
 
 ## Licença
