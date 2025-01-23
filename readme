@@ -25,7 +25,7 @@ python manage.py startapp appname
 # Acessando o backend
 -- Quando acessar o [admin](http://localhost:8000/admin)
 o login admin
-senha admin123456
+senha adminadmin
 
 # Instalando dependências do Django e Django REST framework
 ```
